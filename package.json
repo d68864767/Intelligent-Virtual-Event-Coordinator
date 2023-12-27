@@ -1,0 +1,52 @@
+{
+  "name": "intelligent-virtual-event-coordinator",
+  "version": "1.0.0",
+  "description": "An intelligent virtual event coordinator that uses AI to plan, organize, and manage virtual events.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/intelligent-virtual-event-coordinator.git"
+  },
+  "keywords": [
+    "AI",
+    "Event Management",
+    "Virtual Events",
+    "OpenAI",
+    "Node.js",
+    "React",
+    "Angular",
+    "MongoDB",
+    "PostgreSQL",
+    "AWS",
+    "Azure",
+    "Google Cloud"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/intelligent-virtual-event-coordinator/issues"
+  },
+  "homepage": "https://github.com/yourusername/intelligent-virtual-event-coordinator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "openai": "^0.0.3",
+    "mongoose": "^5.12.3",
+    "pg": "^8.6.0",
+    "react": "^17.0.2",
+    "angular": "^11.2.14",
+    "jsonwebtoken": "^8.5.1",
+    "bcrypt": "^5.0.1",
+    "nodemailer": "^6.6.2",
+    "googleapis": "^73.0.0",
+    "microsoft-graph-client": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  }
+}
